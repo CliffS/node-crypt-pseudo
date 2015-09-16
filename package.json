@@ -1,6 +1,6 @@
 {
   "name": "pseudohash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Short, reversable, alphanumeric pseudohash with hard-to-guess sequence.",
   "main": "lib/pseudo-hash.js",
   "scripts": {

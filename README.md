@@ -1,8 +1,8 @@
-# node-pseudhash
+# Pseudhash
 
 [issues]: https://github.com/CliffS/node-pseudohash/issues
 
-## Short, reversable, alphanumeric pseudohash with hard-to-guess sequence.
+## Short, reversable, alphanumeric pseudo-hash with hard-to-guess sequence.
 
 This is designed to generate a string from a number so
 that it can be displayed to a user without similar numbers
