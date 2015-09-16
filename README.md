@@ -1,4 +1,4 @@
-# Pseudhash
+# Pseudohash
 
 [issues]: https://github.com/CliffS/node-pseudohash/issues
 
