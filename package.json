@@ -5,11 +5,13 @@
   "main": "lib/pseudo-hash.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "coffee -c -o lib src/*.coffee"
+    "watch": "coffee -c -w -o lib src &",
+    "compile": "coffee -c -o lib src/*.coffee",
+    "prepublishOnly": "npm run-script compile"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CliffS/node-pseudohash.git"
+    "url": "git+https://github.com/CliffS/pseudohash.git"
   },
   "keywords": [
     "hash",
@@ -20,9 +22,9 @@
   "author": "Cliff Stanford",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/CliffS/node-pseudohash/issues"
+    "url": "https://github.com/CliffS/pseudohash/issues"
   },
-  "homepage": "https://github.com/CliffS/node-pseudohash#readme",
+  "homepage": "https://github.com/CliffS/pseudohash#readme",
   "files": [
     "lib"
   ],

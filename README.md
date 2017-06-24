@@ -24,7 +24,7 @@ ported from the PHP at <http://blog.kevburnsjr.com/php-unique-hash>
     Pseudo = require('pseudohash');
     var pseudo = new Pseudo(62);
 
-    var number = Math.random() * 100000;
+    var number = Math.floor(Math.random() * 100000);
     var hash = pseudo.hash(number, 5);
     console.log(hash);
 
